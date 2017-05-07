@@ -1,15 +1,17 @@
 # Disk-Scheduler-Simulator
-A schudling simulator that implements different disk scheduling algorithms and applies it on a disk queue with requests for I/O blocks on cylinders.
+A schudling simulator that implements different disk scheduling algorithms and applies it on a disk queue with requests for I/O blocks on cylinders.<br>
 Program created in Java. GUI is created using Javafx.
 
 This Program compares the output after applying different disk scheduling algorithms
 i.e. FCFS, SSTF, SCAN ,C-SCAN, Look, C-Look by implementing their algorithms and apply it on a disk queue with requests for I/O blocks
 on cylinders.
 
-<b>Input:</b> 
-cylinders I/O requests.
-e.g. <b>98, 183, 37, 122, 14, 124, 65, 67</b>
-<br>Initial head start cylinder: e.g. <b>53</b>
+<b>Input:</b>
+<ul>
+<li>cylinders I/O requests.
+e.g. <b>98, 183, 37, 122, 14, 124, 65, 67</li>
+<li><br>Initial head start cylinder: e.g. <b>53</b></li>
+</ul>
 
 <b>Output</b>
 <i>For each algorithm:</i> the sequence of head movement to access the requested
