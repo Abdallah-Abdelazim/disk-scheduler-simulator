@@ -16,7 +16,7 @@ on cylinders.
 <i>For each algorithm:</i> the sequence of head movement to access the requested
 cylinders based on the implemented algorithms
 
-The following information are followed:
+The following information are followed:<br>
 1- The Input queue like above should be an input to your program from a file or through GUI.<br>
 2- The Initial head start cylinder should also be an input to your program and entered by
 the user as Input from a file or through GUI.<br>
