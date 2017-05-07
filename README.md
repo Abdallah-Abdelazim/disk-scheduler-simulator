@@ -23,3 +23,6 @@ the user as Input from a file or through GUI.
 cylinders based on the implemented algorithms.
 4- Show the sequence result at the end as separate rows for applying the different
 algorithms on the same input data and show the total head movement per algorithm
+
+![GIF Demo](http://i.imgur.com/kn5DfDW.gif)
+
