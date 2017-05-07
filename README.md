@@ -9,7 +9,7 @@ on cylinders.
 <b>Input:</b>
 <ul>
 <li>cylinders I/O requests.e.g. <b>98, 183, 37, 122, 14, 124, 65, 67</b></li>
-<li><br>Initial head start cylinder: e.g. <b>53</b></li>
+<li>Initial head start cylinder: e.g. <b>53</b></li>
 </ul>
 
 <b>Output</b>
