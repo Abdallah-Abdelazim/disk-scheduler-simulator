@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane minHeight="550.0" minWidth="750.0" prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="disk_scheduler_simulator.controller.StatisticsController">
+   <children>
+      <TextArea fx:id="resultsTextArea" editable="false" focusTraversable="false" layoutX="39.0" layoutY="38.0" prefHeight="482.0" prefWidth="723.0" promptText="Results Appear Here" style="-fx-font-size: 16; -fx-text-fill: red;" AnchorPane.bottomAnchor="80.0" AnchorPane.leftAnchor="39.0" AnchorPane.rightAnchor="38.0" AnchorPane.topAnchor="38.0" />
+      <Button defaultButton="true" layoutX="346.0" layoutY="540.0" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#showResults" prefHeight="46.0" prefWidth="109.0" text="Show Results" AnchorPane.bottomAnchor="14.0" AnchorPane.leftAnchor="346.0" AnchorPane.rightAnchor="345.0" />
+   </children>
+</AnchorPane>
