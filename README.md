@@ -25,5 +25,5 @@ cylinders based on the implemented algorithms.<br>
 4- Show the sequence result at the end as separate rows for applying the different
 algorithms on the same input data and show the total head movement per algorithm<br>
 
-![GIF Demo](http://i.imgur.com/kn5DfDW.gif)
+![GIF Demo](http://i.imgur.com/y65ApEo.gif)
 
