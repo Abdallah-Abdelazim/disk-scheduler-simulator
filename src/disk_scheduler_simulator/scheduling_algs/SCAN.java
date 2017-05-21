@@ -23,7 +23,7 @@ public class SCAN implements SchedulingAlgorithm {
     public int [] getSequence() {
         Arrays.sort(reqQueue, 0, reqQueue.length); // Sorts the array of ints into ascending numerical order
 
-        scheduleSequence = new int[reqQueue.length+2];
+        scheduleSequence = new int[reqQueue.length+1];
 
         int nextSequenceIndex = 0;
 
@@ -52,10 +52,6 @@ public class SCAN implements SchedulingAlgorithm {
         for (int i = startIndex+1; i<reqQueue.length; i++) {
             scheduleSequence[nextSequenceIndex++] = reqQueue[i];
         }
-
-        /*********************************/
-
-        scheduleSequence[nextSequenceIndex++] = endCylinder;  // <--- Scan reaches endCylinder
 
         /*********************************/
 
