@@ -11,7 +11,7 @@ on cylinders.
 * Initial head start cylinder: e.g. *53*
 
 
-**Output**
+**Output:**  
 For each algorithm: the sequence of head movement to access the requested
 cylinders based on the implemented algorithms.  
 
