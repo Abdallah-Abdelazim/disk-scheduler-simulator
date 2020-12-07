@@ -1,4 +1,4 @@
-# Disk-Scheduler-Simulator
+# Disk Scheduler Simulator
 A scheduling simulator that implements different disk scheduling algorithms and applies it on a disk queue with requests for I/O blocks on cylinders.  
 Program created in Java. GUI is created using Javafx.  
 
